@@ -1,0 +1,3 @@
+name: GravitySSBungee
+version: '${project.version}'
+main: it.gravitymc.gravityssbungee.GravitySSBungee

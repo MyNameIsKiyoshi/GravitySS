@@ -1,0 +1,36 @@
+#     ______                 _ __        __________
+#    / ____/________ __   __(_) /___  __/ ___/ ___/
+#   / / __/ ___/ __ `/ | / / / __/ / / /\__ \\__ \
+#  / /_/ / /  / /_/ /| |/ / / /_/ /_/ /___/ /__/ /
+#  \____/_/   \__,_/ |___/_/\__/\__, //____/____/
+#                              /____/
+# By GravityStaff For GravitySS - https://discord.gg/vFeJaQdH2g
+Version: '${project.version}'
+
+Locations:
+  Staffer:
+    World: "world"
+    X: 0
+    Y: 0
+    Z: 0
+    YAW: 0
+    PITCH: 0
+  Suspect:
+    World: "world"
+    X: 0
+    Y: 0
+    Z: 0
+    YAW: 0
+    PITCH: 0
+
+DataBase:
+  Enable: false
+  Type: "MySQL"
+  Host: "localhost"
+  Port: 3306
+  DataBase: "GravitySS"
+  TableName: "gravityss"
+  UserName: "user"
+  Password: "password"
+  LogSuspectAndStafferMovement: false
+

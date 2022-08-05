@@ -1,0 +1,10 @@
+name: GravitySS
+version: '${project.version}'
+main: it.gravitymc.gravityss.GravitySS
+api-version: 1.19
+authors: [ GravityStaff ]
+commands:
+  ssfinish:
+    description: "End ScreenShare"
+  sssettings:
+    description: "ScreenShare Settings"
